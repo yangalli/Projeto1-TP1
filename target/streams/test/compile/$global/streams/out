@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/yan/Unb/Quarto-Semestre/TP1/scala/tp1-Listas/src/test/scala/br/unb/cic/ed/TestList.scala:54:46: no arguments allowed for nullary constructor LinkedList: ()br.unb.cic.ed.LinkedList[Int][0m
+[0m[[0m[31merror[0m] [0m[0m    list = new br.unb.cic.ed.LinkedList[Int](0)[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
