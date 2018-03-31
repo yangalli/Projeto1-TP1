@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/home/yan/Unb/Quarto-Semestre/TP1/scala/tp1-Listas/src/main/scala/br/unb/cic/ed/LinkedList.scala:64:17: reassignment to val[0m
-[0m[[0m[31merror[0m] [0m[0m          rover = rover.next[0m
-[0m[[0m[31merror[0m] [0m[0m                ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/yan/Unb/Quarto-Semestre/TP1/scala/tp1-Listas/src/main/scala/br/unb/cic/ed/LinkedList.scala:19:5: enclosing method clear has result type Unit: return value discarded[0m
+[0m[[0m[33mwarn[0m] [0m[0m    return None[0m
+[0m[[0m[33mwarn[0m] [0m[0m    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m

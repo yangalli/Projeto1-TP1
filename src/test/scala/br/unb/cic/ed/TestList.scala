@@ -20,6 +20,15 @@ class TestList extends FlatSpec with Matchers with GivenWhenThen with BeforeAndA
     list.size() should be (0) 
   }
 
+  it should "have size == 0 after clearing the list" in {
+
+    list.insert(0, 5)
+    list.insert(1, 6)
+    list.clear()
+
+    list.size() should be (0) 
+  }
+
   it should "have size == 3 after inserting three elements" in {
 
     list.insert(0, 5)
@@ -27,6 +36,21 @@ class TestList extends FlatSpec with Matchers with GivenWhenThen with BeforeAndA
     list.insert(2, 7)
 
     list.size() should be (3) 
+  }
+
+  it should "update the value of any element in the list" in {
+    
+    list.insert(0, 5)
+    list.insert(1, 6)
+    list.insert(2, 7)
+
+    list.update(0, 8)
+    list.update(1, 9)
+    list.update(2, 10)
+
+    list.elementAt(0) should be (Some(8))
+    list.elementAt(1) should be (Some(9))
+    list.elementAt(2) should be (Some(10))
   }
 
   it should "should keep the list of inserted values" in {

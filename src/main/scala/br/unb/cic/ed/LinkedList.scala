@@ -2,28 +2,22 @@ package br.unb.cic.ed
 
 class LinkedList[A] extends List[A] {
 
+  /********************** Estruturas Necessárias para Linked List ***************************/ 
+
   private class Node(var value: A, var next: Node)
   // o next é do tipo Node, se refereindo ao próximo nó
   private var head: Node = null
   private var tail: Node = null
   private var _size: Int = 0
 
+  /******************************* Definições das Funções ************************************/
+
   def clear() {
     head = null
     tail = null
     _size = 0
+    return None
   }
-
-  def elementAt(pos: Int): Option[A] = {
-    if(pos < 0 || pos > _size) // só aceita uma posicao igual ou maior que 0
-      throw ArrayIndexOutOfBounds("the position of the argument must be between 0 and size")
-    var rover = head // para começar a buscar o elemento, é interessante começar pela cabeça
-
-    for(i <- 0 until pos) // o rover vai se locomovendo até o final da lista
-      rover = rover.next // rover caminha pela lista
-    return Some(rover.value)
-  }
-
 
   def find(value: A): Option[Int] = {
     if(size == 0)
@@ -40,16 +34,26 @@ class LinkedList[A] extends List[A] {
     return None
   }
 
-  // def update(pos: Int, value: A): Unit = {
-  //   if(pos > 0 || pos >= _size) // só aceita uma posicao igual ou maior que 0
-  //     throw ArrayIndexOutOfBounds("the position of the argument must be between 0 and size")
-  //   var rover = head // para começar a buscar o elemento, é interessante começar pela cabeça
+  def update(pos: Int, value: A): Option[A] = {
+    if(pos < 0 || pos > _size) // só aceita uma posicao igual ou maior que 0
+      throw ArrayIndexOutOfBounds("the position of the argument must be between 0 and size")
+    var rover = head // para começar a buscar o elemento, é interessante começar pela cabeça
 
-  //   for(i <- 0 until pos) // o rover vai se locomovendo até o final da lista
-  //     rover = rover.next // rover caminha pela lista
-  //   rover.value = value
-  //   return Some(rover.value)
-  // }
+    for(i <- 0 until pos) // o rover vai se locomovendo até o final da lista
+      rover = rover.next // rover caminha pela lista
+    rover.value = value
+    return Some(rover.value)
+  }
+
+  def elementAt(pos: Int): Option[A] = {
+    if(pos < 0 || pos > _size) // só aceita uma posicao igual ou maior que 0
+      throw ArrayIndexOutOfBounds("the position of the argument must be between 0 and size")
+    var rover = head // para começar a buscar o elemento, é interessante começar pela cabeça
+
+    for(i <- 0 until pos) // o rover vai se locomovendo até o final da lista
+      rover = rover.next // rover caminha pela lista
+    return Some(rover.value)
+  }
 
   def insert(pos: Int, value: A): Unit = {
     if(pos < 0 || pos > _size )
@@ -68,14 +72,6 @@ class LinkedList[A] extends List[A] {
       }
       _size += 1
     }
-  }
-
-  private def nodeAtPosition(pos: Int): Node = {
-    var it = head
-    for(i <- 0 until pos) {
-      it = it.next
-    }
-    return it
   }
 
   def remove(pos: Int): Unit = {

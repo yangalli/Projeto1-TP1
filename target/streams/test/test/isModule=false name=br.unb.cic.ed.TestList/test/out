@@ -1,7 +1,9 @@
 [0m[[0m[0minfo[0m] [0m[0m[32mTestList:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mA List[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should have size == 0 before inserting any element[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should have size == 0 after clearing the list[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should have size == 3 after inserting three elements[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should update the value of any element in the list[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should should keep the list of inserted values[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should return Some(1) when we call find(1000) in the list [100, 1000, 10000][0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should throw InvalidArgument when we call insert(1, 1) on an empty list[0m[0m
