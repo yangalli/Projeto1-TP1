@@ -1,2 +1,6 @@
 compile
 test
+compile
+test: testOnly *TestQueue
+test:testOnly *TestQueue
+exit
