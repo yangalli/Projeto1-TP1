@@ -12,7 +12,7 @@ class TestList extends FlatSpec with Matchers with GivenWhenThen with BeforeAndA
   var list: br.unb.cic.ed.List[Int] = _
 
   before {
-    list = new br.unb.cic.ed.LinkedList[Int]()
+    list = new br.unb.cic.ed.CircularDLL[Int]()
   }
 
   it should "have size == 0 before inserting any element" in {
