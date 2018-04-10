@@ -45,13 +45,16 @@ class LinkedList[A] extends List[A] {
   }
 
   def elementAt(pos: Int): Option[A] = {
-    if(pos < 0 || pos > _size) // só aceita uma posicao igual ou maior que 0
-      throw ArrayIndexOutOfBounds("the position of the argument must be between 0 and size")
-    var rover = head // para começar a buscar o elemento, é interessante começar pela cabeça
-
-    for(i <- 0 until pos) // o rover vai se locomovendo até o final da lista
-      rover = rover.next // rover caminha pela lista
-    return Some(rover.value)
+    //if(pos < 0 || pos > _size) // só aceita uma posicao igual ou maior que 0
+    //  throw ArrayIndexOutOfBounds("the position of the argument must be between 0 and size")
+    if(pos >= 0 && pos < _size) {
+      var rover = head // para começar a buscar o elemento, é interessante começar pela cabeça
+      
+      for(i <- 0 until pos) // o rover vai se locomovendo até o final da lista
+        rover = rover.next // rover caminha pela lista  
+      return Some(rover.value)
+    }
+    return None
   }
 
   def insert(pos: Int, value: A): Unit = {

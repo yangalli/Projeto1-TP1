@@ -1,7 +1,5 @@
-[0m[[0m[31merror[0m] [0m[0m/home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/src/test/scala/br/unb/cic/ed/TestQueue.scala:38:26: value value is not a member of Int[0m
-[0m[[0m[31merror[0m] [0m[0m        queue.getFront().value should be (1)[0m
-[0m[[0m[31merror[0m] [0m[0m                         ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/src/test/scala/br/unb/cic/ed/TestQueue.scala:39:25: value value is not a member of Int[0m
-[0m[[0m[31merror[0m] [0m[0m        queue.getBack().value should be (1)[0m
-[0m[[0m[31merror[0m] [0m[0m                        ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/src/test/scala/br/unb/cic/ed/TestStack.scala:68:13: not enough arguments for constructor LinkedStack: (elements: br.unb.cic.ed.LinkedList[Int])br.unb.cic.ed.LinkedStack[Int].[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter elements.[0m
+[0m[[0m[31merror[0m] [0m[0m    stack = new br.unb.cic.ed.LinkedStack[Int]()[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

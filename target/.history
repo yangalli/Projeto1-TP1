@@ -4,3 +4,10 @@ compile
 test: testOnly *TestQueue
 test:testOnly *TestQueue
 exit
+compile
+test
+compile
+testOnly * TestStack
+testOnly *TestStack
+test
+exit

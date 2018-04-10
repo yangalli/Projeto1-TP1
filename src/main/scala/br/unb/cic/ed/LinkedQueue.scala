@@ -1,14 +1,14 @@
 package br.unb.cic.ed
 
 //pode tirar a declaração da classe do privado e reaproveitar?
+case class Node[A](var value: A, var next: Node[A] = null)
 
-class LinkedQueue[A] extends Queue[A]{
+class LinkedQueue[A] extends Queue[A] {
 
-    case class Node(var value: A, var next: Node = null)
 
     private var _size = 0
-    private var front: Node = null
-    private var back: Node = null
+    private var front: Node[A] = null
+    private var back: Node[A] = null
 
     def size(): Int = _size
     def isEmpty(): Boolean = return front == null

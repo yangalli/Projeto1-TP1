@@ -1,11 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m/home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/src/main/scala/br/unb/cic/ed/LinkedQueue.scala:15:32: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : Unit[0m
-[0m[[0m[31merror[0m] [0m[0m required: A[0m
-[0m[[0m[31merror[0m] [0m[0m    def getFront(): A = require(front != null); front.value[0m
-[0m[[0m[31merror[0m] [0m[0m                               ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/src/main/scala/br/unb/cic/ed/LinkedQueue.scala:16:31: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : Unit[0m
-[0m[[0m[31merror[0m] [0m[0m required: A[0m
-[0m[[0m[31merror[0m] [0m[0m    def getBack(): A = require(back != null); back.value[0m
-[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/src/main/scala/br/unb/cic/ed/ArrayStack.scala:3:7: class ArrayStack needs to be abstract, since method isEmpty in trait Stack of type ()Boolean is not defined[0m
+[0m[[0m[31merror[0m] [0m[0mclass ArrayStack[A](private val elements: br.unb.cic.ed.List[A]) extends Stack[A] {[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/src/main/scala/br/unb/cic/ed/LinkedStack.scala:3:7: class LinkedStack needs to be abstract, since method isEmpty in trait Stack of type ()Boolean is not defined[0m
+[0m[[0m[31merror[0m] [0m[0mclass LinkedStack[A](private val elements: LinkedList[A]) extends Stack[A] {[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
 [0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
