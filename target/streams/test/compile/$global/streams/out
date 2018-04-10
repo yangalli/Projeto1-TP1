@@ -1,5 +1,5 @@
-[0m[[0m[31merror[0m] [0m[0m/home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/src/test/scala/br/unb/cic/ed/TestStack.scala:68:13: not enough arguments for constructor LinkedStack: (elements: br.unb.cic.ed.LinkedList[Int])br.unb.cic.ed.LinkedStack[Int].[0m
-[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter elements.[0m
-[0m[[0m[31merror[0m] [0m[0m    stack = new br.unb.cic.ed.LinkedStack[Int]()[0m
-[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/src/test/scala/br/unb/cic/ed/TestQueue.scala:15:66: object LinkedList is not a member of package br.unb.cic.ed[0m
+[0m[[0m[31merror[0m] [0m[0mNote: class LinkedList exists, but it has no companion object.[0m
+[0m[[0m[31merror[0m] [0m[0m        queue = new br.unb.cic.ed.LinkedQueue[Int](br.unb.cic.ed.LinkedList[Int]())[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                 ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

@@ -11,3 +11,11 @@ testOnly * TestStack
 testOnly *TestStack
 test
 exit
+compile
+tesOnly TestQueue
+tesOnly *TestQueue
+tesOnlyC: *TestQueue
+tesOnly: *TestQueue
+test:tesOnly *TestQueue
+testOnly *TestQueue
+exit
