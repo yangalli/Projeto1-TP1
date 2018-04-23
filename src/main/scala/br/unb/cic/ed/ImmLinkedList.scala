@@ -1,6 +1,6 @@
 /**********************************************************************************************
 
-Immutable Linked List: the nodes on the list doesn't change. They values stay intact, and the
+Immutable Linked List: the nodes on the list doesn't change. Their values stay intact, and the
 only way to insert a node is in it's beguinning, so that it doesn't change the other nodes and
 their positions.
 It's important to notice that to insert a node in a place that is not before the first node,

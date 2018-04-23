@@ -22,6 +22,5 @@ class TestImmutableList extends FlatSpec with Matchers with GivenWhenThen with B
     val l2 = 6 :: 7 :: 8 :: 9 :: l1
     l2.length should be (5)
   }
-
   
 }
