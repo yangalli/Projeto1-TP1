@@ -1,4 +1,7 @@
-[0m[[0m[33mwarn[0m] [0m[0m/home/yan/Unb/Quarto-Semestre/TP1/scala/tp1-Listas/src/main/scala/br/unb/cic/ed/LinkedList.scala:19:5: enclosing method clear has result type Unit: return value discarded[0m
-[0m[[0m[33mwarn[0m] [0m[0m    return None[0m
-[0m[[0m[33mwarn[0m] [0m[0m    ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yan/Unb/Quarto-Semestre/TP1/scala/tp1-Listas/src/main/scala/br/unb/cic/ed/ImmLinkedList.scala:31:13: class Cons needs to be abstract, since method apply in trait SeqLike of type (idx: Int)A is not defined[0m
+[0m[[0m[31merror[0m] [0m[0mfinal class Cons[A](override val head: A, override val tail: ImmLinkedList[A]) extends ImmLinkedList[A] {[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yan/Unb/Quarto-Semestre/TP1/scala/tp1-Listas/src/main/scala/br/unb/cic/ed/ImmLinkedList.scala:40:8: object creation impossible, since method apply in trait SeqLike of type (idx: Int)Nothing is not defined[0m
+[0m[[0m[31merror[0m] [0m[0mobject MyNil extends ImmLinkedList[Nothing] {[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

@@ -16,7 +16,6 @@ class LinkedList[A] extends List[A] {
     head = null
     tail = null
     _size = 0
-    return None
   }
 
   def find(value: A): Option[Int] = {
