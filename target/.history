@@ -19,3 +19,15 @@ tesOnly: *TestQueue
 test:tesOnly *TestQueue
 testOnly *TestQueue
 exit
+compile
+testOnly TestBinTree
+testOnly *TestBinTree
+compile
+testOnly *TestBinTree
+compile
+testOnly *TestBinTree
+compile
+testOnly *TestBinTree
+exit
+testOnly *TestBinTree
+compile

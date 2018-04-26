@@ -1,1 +1,73 @@
-[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set(/home/yan/Unb/Quarto-Semestre/TP1/scala/tp1-Listas/src/main/scala/br/unb/cic/ed/Main.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(/home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/src/main/scala/br/unb/cic/ed/DoubleLinkedList.scala, /home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/src/main/scala/br/unb/cic/ed/Iterator.scala, /home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/src/main/scala/br/unb/cic/ed/ArrayList.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(br.unb.cic.ed.DllIterator, br.unb.cic.ed.DllNode, br.unb.cic.ed.DoubleLinkedList, br.unb.cic.ed.Iterator, br.unb.cic.ed.Adicional, br.unb.cic.ed.ArrayList)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(br.unb.cic.ed.DllIterator, br.unb.cic.ed.DllNode, br.unb.cic.ed.DoubleLinkedList, br.unb.cic.ed.Iterator, br.unb.cic.ed.Adicional, br.unb.cic.ed.ArrayList)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/src/main/scala/br/unb/cic/ed/DoubleLinkedList.scala, /home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/src/main/scala/br/unb/cic/ed/Iterator.scala, /home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/src/main/scala/br/unb/cic/ed/ArrayList.scala)[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 3 Scala sources to /home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/target/scala-2.12/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.1:compile for Scala 2.12.3[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.1:compile for Scala 2.12.3[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 329a99f8 for Scala compiler version 2.12.3[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/usr/lib/jvm/java-8-oracle/jre/lib/resources.jar:/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar:/usr/lib/jvm/java-8-oracle/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jsse.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jce.jar:/usr/lib/jvm/java-8-oracle/jre/lib/charsets.jar:/usr/lib/jvm/java-8-oracle/jre/lib/jfr.jar:/usr/lib/jvm/java-8-oracle/jre/classes:/home/epilogue/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/target/scala-2.12/classes:/home/epilogue/.ivy2/cache/org.scalactic/scalactic_2.12/bundles/scalactic_2.12-3.0.4.jar:/home/epilogue/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.3.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 12.32097263 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from br.unb.cic.ed.DllIterator...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(br.unb.cic.ed.DllIterator)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(br.unb.cic.ed.DllIterator)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(br.unb.cic.ed.DllIterator,ModifiedNames(changes = UsedName(prev,[Default]))) invalidates 1 classes due to The br.unb.cic.ed.DllIterator has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(prev,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(br.unb.cic.ed.DllIterator)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from br.unb.cic.ed.ArrayList...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(br.unb.cic.ed.ArrayList)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(br.unb.cic.ed.ArrayList)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(br.unb.cic.ed.ArrayList,ModifiedNames(changes = UsedName(iterator,[Default]))) invalidates 1 classes due to The br.unb.cic.ed.ArrayList has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(iterator,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(br.unb.cic.ed.ArrayList)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from br.unb.cic.ed.ArrayListIterator...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(br.unb.cic.ed.ArrayListIterator)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(br.unb.cic.ed.ArrayListIterator)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(br.unb.cic.ed.ArrayListIterator,ModifiedNames(changes = UsedName(next,[Default]), UsedName(elements,[Default]), UsedName(equals,[Default]), UsedName($isInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(==,[Default]), UsedName(hashCode,[Default]), UsedName(getClass,[Default]), UsedName(notifyAll,[Default]), UsedName(wait,[Default]), UsedName(isInstanceOf,[Default]), UsedName(##,[Default]), UsedName(synchronized,[Default]), UsedName(br;unb;cic;ed;ArrayListIterator;init;,[Default]), UsedName($asInstanceOf,[Default]), UsedName(toString,[Default]), UsedName(finalize,[Default]), UsedName(notify,[Default]), UsedName(eq,[Default]), UsedName(hasNext,[Default]), UsedName(asInstanceOf,[Default]), UsedName(!=,[Default]), UsedName(ArrayListIterator,[Default]), UsedName(ne,[Default]), UsedName(current,[Default]))) invalidates 1 classes due to The br.unb.cic.ed.ArrayListIterator has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(next,[Default]), UsedName(elements,[Default]), UsedName(equals,[Default]), UsedName($isInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(==,[Default]), UsedName(hashCode,[Default]), UsedName(getClass,[Default]), UsedName(notifyAll,[Default]), UsedName(wait,[Default]), UsedName(isInstanceOf,[Default]), UsedName(##,[Default]), UsedName(synchronized,[Default]), UsedName(br;unb;cic;ed;ArrayListIterator;init;,[Default]), UsedName($asInstanceOf,[Default]), UsedName(toString,[Default]), UsedName(finalize,[Default]), UsedName(notify,[Default]), UsedName(eq,[Default]), UsedName(hasNext,[Default]), UsedName(asInstanceOf,[Default]), UsedName(!=,[Default]), UsedName(ArrayListIterator,[Default]), UsedName(ne,[Default]), UsedName(current,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(br.unb.cic.ed.ArrayListIterator)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from br.unb.cic.ed.Iterator...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(br.unb.cic.ed.Iterator)[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding br.unb.cic.ed.ArrayListIterator by br.unb.cic.ed.Iterator[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding br.unb.cic.ed.DllIterator by br.unb.cic.ed.Iterator[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(br.unb.cic.ed.ArrayListIterator, br.unb.cic.ed.Iterator, br.unb.cic.ed.DllIterator)[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of br.unb.cic.ed.ArrayListIterator. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of br.unb.cic.ed.DllIterator. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(br.unb.cic.ed.Iterator,ModifiedNames(changes = UsedName(prev,[Default]))) invalidates 3 classes due to The br.unb.cic.ed.Iterator has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(prev,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(br.unb.cic.ed.ArrayListIterator, br.unb.cic.ed.Iterator, br.unb.cic.ed.DllIterator)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll newly invalidated classes after taking into account (previously) recompiled classes:Set()[0m

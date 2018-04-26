@@ -1,5 +1,43 @@
-[0m[[0m[31merror[0m] [0m[0m/home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/src/test/scala/br/unb/cic/ed/TestQueue.scala:15:66: object LinkedList is not a member of package br.unb.cic.ed[0m
-[0m[[0m[31merror[0m] [0m[0mNote: class LinkedList exists, but it has no companion object.[0m
-[0m[[0m[31merror[0m] [0m[0m        queue = new br.unb.cic.ed.LinkedQueue[Int](br.unb.cic.ed.LinkedList[Int]())[0m
-[0m[[0m[31merror[0m] [0m[0m                                                                 ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/src/test/scala/br/unb/cic/ed/TestBinTree.scala:14:9: type arguments [Int] do not conform to class BinTreeImpl's type parameter bounds [A <: Ordered[A]][0m
+[0m[[0m[31merror[0m] [0m[0m    val bt = new br.unb.cic.ed.BinTreeImpl[Int][0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/src/test/scala/br/unb/cic/ed/TestBinTree.scala:14:32: type arguments [Int] do not conform to class BinTreeImpl's type parameter bounds [A <: Ordered[A]][0m
+[0m[[0m[31merror[0m] [0m[0m    val bt = new br.unb.cic.ed.BinTreeImpl[Int][0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/src/test/scala/br/unb/cic/ed/TestBinTree.scala:26:9: type arguments [Int] do not conform to class BinTreeImpl's type parameter bounds [A <: Ordered[A]][0m
+[0m[[0m[31merror[0m] [0m[0m    val bt = new br.unb.cic.ed.BinTreeImpl[Int][0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/src/test/scala/br/unb/cic/ed/TestBinTree.scala:26:32: type arguments [Int] do not conform to class BinTreeImpl's type parameter bounds [A <: Ordered[A]][0m
+[0m[[0m[31merror[0m] [0m[0m    val bt = new br.unb.cic.ed.BinTreeImpl[Int][0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/src/test/scala/br/unb/cic/ed/TestBinTree.scala:34:9: type arguments [Int] do not conform to class BinTreeImpl's type parameter bounds [A <: Ordered[A]][0m
+[0m[[0m[31merror[0m] [0m[0m    val bt = new br.unb.cic.ed.BinTreeImpl[Int][0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/src/test/scala/br/unb/cic/ed/TestBinTree.scala:34:32: type arguments [Int] do not conform to class BinTreeImpl's type parameter bounds [A <: Ordered[A]][0m
+[0m[[0m[31merror[0m] [0m[0m    val bt = new br.unb.cic.ed.BinTreeImpl[Int][0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/src/test/scala/br/unb/cic/ed/TestBinTree.scala:50:9: type arguments [Int] do not conform to class BinTreeImpl's type parameter bounds [A <: Ordered[A]][0m
+[0m[[0m[31merror[0m] [0m[0m    val bt = new br.unb.cic.ed.BinTreeImpl[Int][0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/src/test/scala/br/unb/cic/ed/TestBinTree.scala:50:32: type arguments [Int] do not conform to class BinTreeImpl's type parameter bounds [A <: Ordered[A]][0m
+[0m[[0m[31merror[0m] [0m[0m    val bt = new br.unb.cic.ed.BinTreeImpl[Int][0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/src/test/scala/br/unb/cic/ed/TestBinTree.scala:68:9: type arguments [Int] do not conform to class BinTreeImpl's type parameter bounds [A <: Ordered[A]][0m
+[0m[[0m[31merror[0m] [0m[0m    val bt = new br.unb.cic.ed.BinTreeImpl[Int][0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/src/test/scala/br/unb/cic/ed/TestBinTree.scala:68:32: type arguments [Int] do not conform to class BinTreeImpl's type parameter bounds [A <: Ordered[A]][0m
+[0m[[0m[31merror[0m] [0m[0m    val bt = new br.unb.cic.ed.BinTreeImpl[Int][0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/src/test/scala/br/unb/cic/ed/TestBinTree.scala:84:9: type arguments [Int] do not conform to class BinTreeImpl's type parameter bounds [A <: Ordered[A]][0m
+[0m[[0m[31merror[0m] [0m[0m    val bt = new br.unb.cic.ed.BinTreeImpl[Int][0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/src/test/scala/br/unb/cic/ed/TestBinTree.scala:84:32: type arguments [Int] do not conform to class BinTreeImpl's type parameter bounds [A <: Ordered[A]][0m
+[0m[[0m[31merror[0m] [0m[0m    val bt = new br.unb.cic.ed.BinTreeImpl[Int][0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/src/test/scala/br/unb/cic/ed/TestBinTree.scala:101:9: type arguments [Int] do not conform to class BinTreeImpl's type parameter bounds [A <: Ordered[A]][0m
+[0m[[0m[31merror[0m] [0m[0m    val bt = new br.unb.cic.ed.BinTreeImpl[Int][0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/src/test/scala/br/unb/cic/ed/TestBinTree.scala:101:32: type arguments [Int] do not conform to class BinTreeImpl's type parameter bounds [A <: Ordered[A]][0m
+[0m[[0m[31merror[0m] [0m[0m    val bt = new br.unb.cic.ed.BinTreeImpl[Int][0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m14 errors found[0m

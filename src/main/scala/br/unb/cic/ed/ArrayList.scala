@@ -20,7 +20,7 @@ class ArrayList[A: Manifest](private val max: Int = 10) extends List[A] {
         return Some(idx)
       }
     }
-    return None
+    None
   }
 
   def update(pos: Int, value: A): Option[A] = {
@@ -28,14 +28,14 @@ class ArrayList[A: Manifest](private val max: Int = 10) extends List[A] {
       throw ArrayIndexOutOfBounds("the position of the argument must be between 0 and size")
     
     elements(pos) = value
-    return Some(elements(pos))
+    Some(elements(pos))
   }
 
   def elementAt(pos: Int): Option[A] = {
     if(pos >= 0 && pos < _size) {
       return Some(elements(pos))
     }
-    return None
+    None
   }
 
   def insert(pos: Int, value: A): Unit = {
@@ -67,5 +67,18 @@ class ArrayList[A: Manifest](private val max: Int = 10) extends List[A] {
   }
 
   def size(): Int = _size
+
+  def iterator() = new ArrayListIterator(elements)
 }
 
+class ArrayListIterator[A: Manifest](val elements: Array[A]) extends Iterator[A] {
+
+  private var pos = 0
+
+  override def hasNext(): Boolean = pos < elements.length
+
+  override def next(): Unit = pos += 1
+
+  override def current(): A = elements(pos)
+
+}

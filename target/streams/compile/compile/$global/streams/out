@@ -1,12 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/src/main/scala/br/unb/cic/ed/LinkedQueue.scala:6:7: class LinkedQueue needs to be abstract, since:[0m
-[0m[[0m[31merror[0m] [0m[0mit has 4 unimplemented members.[0m
-[0m[[0m[31merror[0m] [0m[0m/** As seen from class LinkedQueue, the missing signatures are as follows.[0m
-[0m[[0m[31merror[0m] [0m[0m *  For convenience, these are usable as stub implementations.[0m
-[0m[[0m[31merror[0m] [0m[0m */[0m
-[0m[[0m[31merror[0m] [0m[0m  def getBack(): A = ???[0m
-[0m[[0m[31merror[0m] [0m[0m  def getFront(): A = ???[0m
-[0m[[0m[31merror[0m] [0m[0m  def isEmpty(): Boolean = ???[0m
-[0m[[0m[31merror[0m] [0m[0m  def size(): Int = ???[0m
-[0m[[0m[31merror[0m] [0m[0mclass LinkedQueue[A](private val elements: LinkedList[A]) extends Queue[A] {[0m
+[0m[[0m[31merror[0m] [0m[0m/home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/src/main/scala/br/unb/cic/ed/ArrayList.scala:74:7: class ArrayListIterator needs to be abstract, since method prev in trait Iterator of type ()Unit is not defined[0m
+[0m[[0m[31merror[0m] [0m[0mclass ArrayListIterator[A: Manifest](val elements: Array[A]) extends Iterator[A] {[0m
 [0m[[0m[31merror[0m] [0m[0m      ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
