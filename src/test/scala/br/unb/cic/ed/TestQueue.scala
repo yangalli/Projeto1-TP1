@@ -12,7 +12,8 @@ class TestQueue extends FlatSpec with Matchers with GivenWhenThen with BeforeAnd
     var queue: br.unb.cic.ed.Queue[Int] = _
 
     before{
-        queue = new br.unb.cic.ed.LinkedQueue[Int](new LinkedList[Int]())
+        //queue = new br.unb.cic.ed.LinkedQueue[Int](new LinkedList[Int]())
+        queue = new br.unb.cic.ed.ArrayQueue[Int](new ArrayList[Int]())
     }
 
     it should "have size == 0 before queueing elemensts" in {

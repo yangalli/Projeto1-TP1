@@ -31,3 +31,6 @@ testOnly *TestBinTree
 exit
 testOnly *TestBinTree
 compile
+exit
+testOnly *TestQueue
+exit
