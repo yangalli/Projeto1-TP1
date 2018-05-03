@@ -66,6 +66,7 @@ class ArrayList[A: Manifest](private val max: Int = 10) extends List[A] {
     else throw ArrayIndexOutOfBounds("the first argument must be between 0 and size")
   }
 
+  
   def size(): Int = _size
 }
 

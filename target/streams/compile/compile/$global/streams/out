@@ -1,7 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/home/yan/Unb/Quarto-Semestre/TP1/scala/tp1-Listas/src/main/scala/br/unb/cic/ed/ImmLinkedList.scala:31:13: class Cons needs to be abstract, since method apply in trait SeqLike of type (idx: Int)A is not defined[0m
-[0m[[0m[31merror[0m] [0m[0mfinal class Cons[A](override val head: A, override val tail: ImmLinkedList[A]) extends ImmLinkedList[A] {[0m
-[0m[[0m[31merror[0m] [0m[0m            ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/yan/Unb/Quarto-Semestre/TP1/scala/tp1-Listas/src/main/scala/br/unb/cic/ed/ImmLinkedList.scala:40:8: object creation impossible, since method apply in trait SeqLike of type (idx: Int)Nothing is not defined[0m
-[0m[[0m[31merror[0m] [0m[0mobject MyNil extends ImmLinkedList[Nothing] {[0m
-[0m[[0m[31merror[0m] [0m[0m       ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yan/Unb/Quarto-Semestre/TP1/scala/tp1-Listas/src/main/scala/br/unb/cic/ed/BubbleSort.scala:3:66: ';' expected but '=' found.[0m
+[0m[[0m[31merror[0m] [0m[0mclass bubblesort[A <% Ordered[A]](list: List[A]) extends List[A] = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

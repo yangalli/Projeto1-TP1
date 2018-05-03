@@ -6,7 +6,11 @@ import org.scalatest.GivenWhenThen
 import org.scalatest.BeforeAndAfter
 
 class TestImmutableList extends FlatSpec with Matchers with GivenWhenThen with BeforeAndAfter {
+  
   behavior of "An immutable list"
+
+  var list: br.unb.cic.ed.ImmLinkedList[Int] = _
+
 
   it should "return a Nil list if MyNil is Empty" in {
     MyNil.length should be (0)

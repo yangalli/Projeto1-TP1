@@ -1,6 +1,7 @@
 #Successful Tests
-#Sun Apr 22 23:01:06 BRT 2018
-br.unb.cic.ed.TestImmutableList=1524448866724
-br.unb.cic.ed.TestQueue=1524448866731
-br.unb.cic.ed.TestStack=1524448866726
-br.unb.cic.ed.TestList=1524448866760
+#Thu May 03 11:04:20 BRT 2018
+br.unb.cic.ed.TestHashMap=1525356259860
+br.unb.cic.ed.TestImmutableList=1525356259863
+br.unb.cic.ed.TestQueue=1525356260097
+br.unb.cic.ed.TestStack=1525356259862
+br.unb.cic.ed.TestList=1525356260059
