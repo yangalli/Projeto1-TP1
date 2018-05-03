@@ -1,5 +1,5 @@
 package br.unb.cic.ed
 
-trait Graph[A] {
-    def addEdge(src: Int, dest: Int): Unit
+trait Graph {
+    def addEdge(src: Int, dest: Int, weight: Int = 1): Unit
 }

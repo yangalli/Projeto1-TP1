@@ -1,21 +1,22 @@
 Lista
     Array   ok!
     Encadeada   ok!
-    Duplamente Encadeada
+    Duplamente Encadeada ok!
     Circular duplamente encadeada    ok!
     
 Fila
-    Array   
+    Array   ok!
     Linked  ok!
+    
 Pilha
     Array   ok!
     Linked  ok!
-Grafos
+    
+Grafos  
 
 Arvore
-    Binaria
-    AVL
+    Binaria ok!
     
-Hash
+Hash    ok!
     
     

@@ -87,12 +87,12 @@ class ArrayListIterator[A: Manifest](val elements: Array[A]) extends Iterator[A]
 object ArrayList {
 
   /* BubbleSort */
-  def Ordena[A <% Ordered[A]](list: ArrayList[A]) {
+  def BubbleSort[A <% Ordered[A]](list: ArrayList[A]) {
 
     var array = list.elements
     var swap = false
 
-    for(i <- 0 until array.length - 1)
+    for(i <- 0 until list.size - 1)
       if(array(i+1) < array(i)){
         val temp = array(i)
         array(i) = array(i+1)
@@ -101,7 +101,82 @@ object ArrayList {
       }
 
     // Repeat until we don't have anymore swaps
-    if(swap) Ordena(list)
+    if(swap) BubbleSort(list)
     else array
+  }
+
+  def SelectionSort[A <% Ordered[A]](list: ArrayList[A]) {
+
+    var array = list.elements
+
+    for(i <- 0 until list.size){
+      var min = i
+
+      for(j <- i+1 until list.size)
+        if(array(j) < array(min))
+          min = j
+
+      if(min != i){
+        val temp = array(i)
+        array(i) = array(min)
+        array(min) = temp
+      }
+    }
+  }
+
+  def InsertionSort[A <% Ordered[A]](list: ArrayList[A]) {
+
+    var array = list.elements
+
+    for(i <- 0 until list.size){
+
+      val hold = array(i)
+      var holePos = i
+
+      while(holePos > 0 && hold < array(holePos - 1)){
+        array(holePos) = array(holePos - 1)
+        holePos -= 1
+      }
+
+      array(holePos) = hold
+    }
+  }
+
+  def QuickSort[A <% Ordered[A]](list: ArrayList[A], begin: Int, end: Int) {
+
+    var array = list.elements
+
+    if (begin < end) {
+      
+      var pivot = partition(array, begin, end);
+
+      // Recursively sort elements before
+      // partition and after partition
+      QuickSort(list, begin, pivot-1);
+      QuickSort(list, pivot+1, end);
+    }
+  }
+
+  def partition[A <% Ordered[A]](array: Array[A], begin: Int, end: Int): Int = {
+
+    var pivot = array(end)
+    var i = begin-1
+
+    for(j <- begin until end) {
+      if(array(j) <= pivot) {
+        i +=1
+        var temp = array(i)
+        array(i) = array(j)
+        array(j) = temp
+      }
+    }
+    if(array(end) < array(i+1)){
+      var temp = array(i+1)
+      array(i+1) = array(end)
+      array(end) = temp
+    }
+
+    return i+1
+    
   }
 }

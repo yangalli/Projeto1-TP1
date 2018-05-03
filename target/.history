@@ -39,3 +39,7 @@ exit
 testOnly *TestList
 compile
 exit
+testOnly *TestList
+compile
+testOnly *TestGraph
+testOnly *TestList

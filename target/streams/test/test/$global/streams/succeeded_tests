@@ -1,5 +1,7 @@
 #Successful Tests
-#Wed May 02 19:33:31 BRT 2018
+#Thu May 03 15:19:04 BRT 2018
 br.unb.cic.ed.TestBinTree=1524765218409
+br.unb.cic.ed.TestGraph=1525367962237
 br.unb.cic.ed.TestQueue=1524777434499
 br.unb.cic.ed.TestStack=1522780515364
+br.unb.cic.ed.TestList=1525371544114

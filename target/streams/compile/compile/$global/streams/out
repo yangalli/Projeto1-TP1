@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/src/main/scala/br/unb/cic/ed/GraphImpl.scala:5:40: not found: type Graph[0m
-[0m[[0m[31merror[0m] [0m[0mclass GraphImpl[A](val V: Int) extends Graph[A] {[0m
-[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/src/main/scala/br/unb/cic/ed/ArrayList.scala:145:90: object ArrayList does not take type parameters.[0m
+[0m[[0m[31merror[0m] [0m[0m  def QuickSort[A <% Ordered[A]](list: ArrayList[A], begin: Int = 0, end: Int = ArrayList[A].size) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                         ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

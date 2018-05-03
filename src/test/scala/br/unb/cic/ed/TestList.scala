@@ -134,22 +134,72 @@ class TestList extends FlatSpec with Matchers with GivenWhenThen with BeforeAndA
 
   it should "BubbleSort working" in {
 
-    var list = new br.unb.cic.ed.ArrayList[Int]()
+    var list1 = new br.unb.cic.ed.ArrayList[Int]()
 
-    list.insert(0, 5)
-    list.insert(0, 7)
-    list.insert(0, 6)
-    list.insert(0, 8)
-    list.insert(0, 10)
-    list.insert(0, 15)
-    list.insert(0, 20)
+    list1.insert(0, 5)
+    list1.insert(0, 7)
+    list1.insert(0, 6)
+    list1.insert(0, 8)
+    list1.insert(0, 10)
+    list1.insert(0, 15)
+    list1.insert(0, 20)
 
-    ArrayList.Ordena(list)
+    ArrayList.BubbleSort(list1)
 
-    list.find(5) should be (Some(1))
-
-    list.elementAt(1) should be (Some(6))
+    list1.elementAt(0) should be (Some(5))
   }
+
+  it should "InsertionSort working" in {
+
+    var list1 = new br.unb.cic.ed.ArrayList[Int]()
+
+    list1.insert(0, 5)
+    list1.insert(0, 7)
+    list1.insert(0, 6)
+    list1.insert(0, 8)
+    list1.insert(0, 10)
+    list1.insert(0, 15)
+    list1.insert(0, 20)
+
+    ArrayList.InsertionSort(list1)
+
+    list1.elementAt(0) should be (Some(5))
+  }
+
+  it should "SelectionSort working" in {
+
+    var list1 = new br.unb.cic.ed.ArrayList[Int]()
+
+    list1.insert(0, 5)
+    list1.insert(0, 7)
+    list1.insert(0, 6)
+    list1.insert(0, 8)
+    list1.insert(0, 10)
+    list1.insert(0, 15)
+    list1.insert(0, 20)
+
+    ArrayList.SelectionSort(list1)
+
+    list1.elementAt(0) should be (Some(5))
+  }
+
+  it should "QuickSort working" in {
+
+    var list1 = new br.unb.cic.ed.ArrayList[Int]()
+
+    list1.insert(0, 5)
+    list1.insert(0, 7)
+    list1.insert(0, 6)
+    list1.insert(0, 8)
+    list1.insert(0, 10)
+    list1.insert(0, 15)
+    list1.insert(0, 20)
+
+    ArrayList.QuickSort(list1, 0, list1.size-1)
+
+    list1.elementAt(0) should be (Some(5))
+  }
+  
 }
 
 
