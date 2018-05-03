@@ -69,6 +69,7 @@ class ArrayList[A: Manifest](private val max: Int = 10) extends List[A] {
   def size(): Int = _size
 
   def iterator() = new ArrayListIterator(elements)
+
 }
 
 class ArrayListIterator[A: Manifest](val elements: Array[A]) extends Iterator[A] {
@@ -81,4 +82,26 @@ class ArrayListIterator[A: Manifest](val elements: Array[A]) extends Iterator[A]
 
   override def current(): A = elements(pos)
 
+}
+
+object ArrayList {
+
+  /* BubbleSort */
+  def Ordena[A <% Ordered[A]](list: ArrayList[A]) {
+
+    var array = list.elements
+    var swap = false
+
+    for(i <- 0 until array.length - 1)
+      if(array(i+1) < array(i)){
+        val temp = array(i)
+        array(i) = array(i+1)
+        array(i+1) = temp
+        swap = true
+      }
+
+    // Repeat until we don't have anymore swaps
+    if(swap) Ordena(list)
+    else array
+  }
 }

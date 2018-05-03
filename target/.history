@@ -34,3 +34,8 @@ compile
 exit
 testOnly *TestQueue
 exit
+testOnly *TestList
+exit
+testOnly *TestList
+compile
+exit
