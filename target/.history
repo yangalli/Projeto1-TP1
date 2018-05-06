@@ -1,2 +1,48 @@
 compile
 test
+compile
+test: testOnly *TestQueue
+test:testOnly *TestQueue
+exit
+compile
+test
+compile
+testOnly * TestStack
+testOnly *TestStack
+test
+exit
+compile
+tesOnly TestQueue
+tesOnly *TestQueue
+tesOnlyC: *TestQueue
+tesOnly: *TestQueue
+test:tesOnly *TestQueue
+testOnly *TestQueue
+exit
+compile
+testOnly TestBinTree
+testOnly *TestBinTree
+compile
+testOnly *TestBinTree
+compile
+testOnly *TestBinTree
+compile
+testOnly *TestBinTree
+exit
+testOnly *TestBinTree
+compile
+exit
+testOnly *TestQueue
+exit
+testOnly *TestList
+exit
+testOnly *TestList
+compile
+exit
+testOnly *TestList
+compile
+testOnly *TestGraph
+testOnly *TestList
+compile
+testOnly *testList
+testOnly *TestList

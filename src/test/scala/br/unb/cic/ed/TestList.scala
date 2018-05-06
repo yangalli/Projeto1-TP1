@@ -12,7 +12,12 @@ class TestList extends FlatSpec with Matchers with GivenWhenThen with BeforeAndA
   var list: br.unb.cic.ed.List[Int] = _
 
   before {
+<<<<<<< HEAD
     list = new br.unb.cic.ed.CircularDLL[Int]()
+=======
+    list = new br.unb.cic.ed.LinkedList[Int]()
+    /* list = new br.unb.cic.ed.ArrayList[Int]() */
+>>>>>>> 23b072bbc5241335ab44dab3586d0fef6cdf527d
   }
 
   it should "have size == 0 before inserting any element" in {
@@ -131,6 +136,74 @@ class TestList extends FlatSpec with Matchers with GivenWhenThen with BeforeAndA
     list.size() should be (2) 
   }
 
+  it should "have BubbleSort working" in {
+
+    var list1 = new br.unb.cic.ed.ArrayList[Int]()
+
+    list1.insert(0, 5)
+    list1.insert(0, 7)
+    list1.insert(0, 6)
+    list1.insert(0, 8)
+    list1.insert(0, 10)
+    list1.insert(0, 15)
+    list1.insert(0, 20)
+
+    ArrayList.BubbleSort(list1)
+
+    list1.elementAt(0) should be (Some(5))
+  }
+
+  it should "have InsertionSort working" in {
+
+    var list1 = new br.unb.cic.ed.ArrayList[Int]()
+
+    list1.insert(0, 5)
+    list1.insert(0, 7)
+    list1.insert(0, 6)
+    list1.insert(0, 8)
+    list1.insert(0, 10)
+    list1.insert(0, 15)
+    list1.insert(0, 20)
+
+    ArrayList.InsertionSort(list1)
+
+    list1.elementAt(0) should be (Some(5))
+  }
+
+  it should "have SelectionSort working" in {
+
+    var list1 = new br.unb.cic.ed.ArrayList[Int]()
+
+    list1.insert(0, 5)
+    list1.insert(0, 7)
+    list1.insert(0, 6)
+    list1.insert(0, 8)
+    list1.insert(0, 10)
+    list1.insert(0, 15)
+    list1.insert(0, 20)
+
+    ArrayList.SelectionSort(list1)
+
+    list1.elementAt(0) should be (Some(5))
+  }
+
+  it should "have QuickSort working" in {
+
+    var list1 = new br.unb.cic.ed.ArrayList[Int]()
+
+    list1.insert(0, 5)
+    list1.insert(0, 7)
+    list1.insert(0, 6)
+    list1.insert(0, 8)
+    list1.insert(0, 10)
+    list1.insert(0, 15)
+    list1.insert(0, 20)
+
+    ArrayList.QuickSort(list1, 0, list1.size-1)
+
+    list1.elementAt(0) should be (Some(5))
+  }
+  
 }
 
 

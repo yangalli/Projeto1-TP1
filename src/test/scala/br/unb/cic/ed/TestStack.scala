@@ -50,6 +50,8 @@ class TestStack extends FlatSpec with Matchers with GivenWhenThen with BeforeAnd
     stack.pop() should be (None)
   }
 
+//Esse teste nao faz sentido quando utilizada a LinkedStack
+/*
   it should "throw InvalidArgument when we call push(1) on an full stack" in {
     val smallStack = new br.unb.cic.ed.ArrayStack[Int](new ArrayList[Int](1))
 
@@ -59,9 +61,11 @@ class TestStack extends FlatSpec with Matchers with GivenWhenThen with BeforeAnd
       smallStack.push(1)
     }
   }
+*/
 
   before {
-    stack = new br.unb.cic.ed.ArrayStack[Int](new ArrayList[Int]())
+    //stack = new br.unb.cic.ed.ArrayStack[Int](new ArrayList[Int]())
+    stack = new br.unb.cic.ed.LinkedStack[Int](new LinkedList[Int]())
   }
 
 }

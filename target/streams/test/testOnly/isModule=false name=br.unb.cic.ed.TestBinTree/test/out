@@ -1,0 +1,9 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mTestBinTree:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return true if we call exist(3) in a tree with values 7, 5, 3, 6, 8[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return false if you try to remove from an empty tree[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return false if we call exist(3) in a tree with values 7, 5, 3, 6, 8 and remove 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return false if we call exist(8) in a tree with values 7, 5, 3, 6, 8, 10 and remove 8, 1 children right[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return false if we call exist(5) in a tree with values 7, 5, 3, 8 and remove 5, 1 childrem left[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return false if we call exist(7) in a tree with values 7, 5, 3, 6, 8 and remove 7, 2 children node[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should return false if we call exist(5) in a tree with values 7, 5, 6, 8 and remove 5, 1 children node[0m[0m

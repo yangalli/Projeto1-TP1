@@ -1,4 +1,5 @@
-[0m[[0m[31merror[0m] [0m[0m/home/yan/Unb/Quarto-Semestre/TP1/scala/tp1-Listas/src/test/scala/br/unb/cic/ed/TestList.scala:49:11: not found: value elementAt[0m
-[0m[[0m[31merror[0m] [0m[0m    print(elementAt(1))[0m
-[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/src/test/scala/br/unb/cic/ed/TestGraph.scala:16:31: object GraphImpl is not a member of package br.unb.cic.ed[0m
+[0m[[0m[31merror[0m] [0m[0mNote: class GraphImpl exists, but it has no companion object.[0m
+[0m[[0m[31merror[0m] [0m[0m        graph = br.unb.cic.ed.GraphImpl(4)[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
