@@ -1,6 +1,0 @@
-[0m[[0m[0minfo[0m] [0m[0m[32mTestQueue:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mA Queue[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should have size == 0 before queueing elemensts[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should return None when we call the dequeue on em empty Queue[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should have size 3 after adding [1,2,3][0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should return 1 after enqueueing [1,2,3] and dequeueing once[0m[0m

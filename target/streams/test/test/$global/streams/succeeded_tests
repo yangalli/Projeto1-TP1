@@ -1,9 +1,9 @@
 #Successful Tests
-#Sun May 06 18:02:27 BRT 2018
-br.unb.cic.ed.TestBinTree=1525640547469
-br.unb.cic.ed.TestHashMap=1525640547416
-br.unb.cic.ed.TestGraph=1525640547406
-br.unb.cic.ed.TestQueue=1525640547441
-br.unb.cic.ed.TestStack=1525640547493
-br.unb.cic.ed.TestList=1525640547530
-br.unb.cic.ed.immutable.TestImmutableList=1525640547519
+#Sun May 06 18:11:06 BRT 2018
+br.unb.cic.ed.TestBinTree=1525641066198
+br.unb.cic.ed.TestHashMap=1525641066029
+br.unb.cic.ed.TestGraph=1525641066129
+br.unb.cic.ed.TestQueue=1525641066072
+br.unb.cic.ed.TestStack=1525641065997
+br.unb.cic.ed.TestList=1525641066139
+br.unb.cic.ed.immutable.TestImmutableList=1525641066005
