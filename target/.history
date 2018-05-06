@@ -43,3 +43,6 @@ testOnly *TestList
 compile
 testOnly *TestGraph
 testOnly *TestList
+compile
+testOnly *testList
+testOnly *TestList

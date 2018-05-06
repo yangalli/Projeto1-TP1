@@ -12,8 +12,8 @@ class TestList extends FlatSpec with Matchers with GivenWhenThen with BeforeAndA
   var list: br.unb.cic.ed.List[Int] = _
 
   before {
-    /* list = new br.unb.cic.ed.LinkedList[Int]() */
-    list = new br.unb.cic.ed.ArrayList[Int]()
+    list = new br.unb.cic.ed.LinkedList[Int]()
+    /* list = new br.unb.cic.ed.ArrayList[Int]() */
   }
 
   it should "have size == 0 before inserting any element" in {
@@ -132,7 +132,7 @@ class TestList extends FlatSpec with Matchers with GivenWhenThen with BeforeAndA
     list.size() should be (2) 
   }
 
-  it should "BubbleSort working" in {
+  it should "have BubbleSort working" in {
 
     var list1 = new br.unb.cic.ed.ArrayList[Int]()
 
@@ -149,7 +149,7 @@ class TestList extends FlatSpec with Matchers with GivenWhenThen with BeforeAndA
     list1.elementAt(0) should be (Some(5))
   }
 
-  it should "InsertionSort working" in {
+  it should "have InsertionSort working" in {
 
     var list1 = new br.unb.cic.ed.ArrayList[Int]()
 
@@ -166,7 +166,7 @@ class TestList extends FlatSpec with Matchers with GivenWhenThen with BeforeAndA
     list1.elementAt(0) should be (Some(5))
   }
 
-  it should "SelectionSort working" in {
+  it should "have SelectionSort working" in {
 
     var list1 = new br.unb.cic.ed.ArrayList[Int]()
 
@@ -183,7 +183,7 @@ class TestList extends FlatSpec with Matchers with GivenWhenThen with BeforeAndA
     list1.elementAt(0) should be (Some(5))
   }
 
-  it should "QuickSort working" in {
+  it should "have QuickSort working" in {
 
     var list1 = new br.unb.cic.ed.ArrayList[Int]()
 

@@ -111,7 +111,7 @@ class DoubleLinkedList[A: Manifest] extends List[A] with Adicional[A] {
     def iterator() = new DllIterator(this)
 }
 
-//o iterator nao é usado pra nada
+
 class DllIterator[A: Manifest](val elements: DoubleLinkedList[A]) extends Iterator[A] {
 
     var pos: Int = 0

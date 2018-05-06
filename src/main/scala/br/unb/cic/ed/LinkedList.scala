@@ -4,10 +4,9 @@ class LinkedList[A] extends List[A] {
 
   /********************** Estruturas Necessárias para Linked List ***************************/ 
 
-  private class Node(var value: A, var next: Node)
   // o next é do tipo Node, se refereindo ao próximo nó
-  private var head: Node = null
-  private var tail: Node = null
+  private var head: Node[A] = null
+  private var tail: Node[A] = null
   private var _size: Int = 0
 
   /******************************* Definições das Funções ************************************/
@@ -20,7 +19,7 @@ class LinkedList[A] extends List[A] {
 
   def find(value: A): Option[Int] = {
     if(size == 0)
-      return None 
+      None 
     var rover = head
     var index = 0
     while(rover != null) {
@@ -30,7 +29,7 @@ class LinkedList[A] extends List[A] {
       rover = rover.next
       index += 1
     }
-    return None
+    None
   }
 
   def update(pos: Int, value: A): Option[A] = {
@@ -45,16 +44,14 @@ class LinkedList[A] extends List[A] {
   }
 
   def elementAt(pos: Int): Option[A] = {
-    //if(pos < 0 || pos > _size) // só aceita uma posicao igual ou maior que 0
-    //  throw ArrayIndexOutOfBounds("the position of the argument must be between 0 and size")
-    if(pos >= 0 && pos < _size) {
+    if(pos >= 0 && pos < _size) { // só aceita uma posicao igual ou maior que 0
       var rover = head // para começar a buscar o elemento, é interessante começar pela cabeça
       
       for(i <- 0 until pos) // o rover vai se locomovendo até o final da lista
         rover = rover.next // rover caminha pela lista  
       return Some(rover.value)
     }
-    return None
+    None
   }
 
   def insert(pos: Int, value: A): Unit = {
@@ -106,4 +103,16 @@ class LinkedList[A] extends List[A] {
   }
 
   def size(): Int = _size
+
+  def iterator() = new LinkedListIterator(head)
+}
+
+class LinkedListIterator[A](val elements: Node[A]) extends Iterator[A] {
+
+  private var it = elements
+
+  def hasNext(): Boolean = it != null
+  def next(): Unit = it = it.next
+  def current(): A = it.value
+  
 }
