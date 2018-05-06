@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/home/yan/Unb/Quarto-Semestre/TP1/scala/tp1-Listas/src/main/scala/br/unb/cic/ed/BubbleSort.scala:3:66: ';' expected but '=' found.[0m
-[0m[[0m[31merror[0m] [0m[0mclass bubblesort[A <% Ordered[A]](list: List[A]) extends List[A] = {[0m
-[0m[[0m[31merror[0m] [0m[0m                                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yan/Unb/Quarto-Semestre/TP1/scala/tp1-Listas/src/main/scala/br/unb/cic/ed/ImpHashMap.scala:3:7: class ImpHashMap needs to be abstract, since method load in trait HashMap of type ()Float is not defined[0m
+[0m[[0m[31merror[0m] [0m[0mclass ImpHashMap[A](maxSize: Int) extends HashMap[A] {[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

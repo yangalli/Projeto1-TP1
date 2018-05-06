@@ -9,18 +9,41 @@ class TestHashMap extends FlatSpec with Matchers with GivenWhenThen with BeforeA
 
   behavior of "A Hash Map"
 
-  var map: br.unb.cic.ed.HashMap[Int] = _
+  var hashmap: br.unb.cic.ed.HashMap[Int] = _
 
   before {
-    map = new br.unb.cic.ed.ImpHashMap[Int](10)
+    hashmap = new br.unb.cic.ed.ImpHashMap[Int](10)
   }
   
   it should "have the correct elements inserted" in {
 
-    map.set("a", 1)
-    map.set("b", 2) 
+    hashmap.set("a", 1)
+    hashmap.set("b", 2) 
 
-    map.get("a") should be (Some(1))
-    map.get("b") should be (Some(2))
+    hashmap.get("a") should be (Some(1))
+    hashmap.get("b") should be (Some(2))
   }
+
+  it should "have the correct elements removed" in {
+
+    hashmap.set("a", 1)
+    hashmap.set("b", 2)
+    hashmap.set("c", 3)
+    hashmap.delete("a")
+
+    hashmap.get("a") should be (None)
+    hashmap.get("b") should be (Some(2))
+  }
+
+  it should "be able to treat colisions" in {
+
+    hashmap.set("a", 1)
+    hashmap.set("b", 2)
+    hashmap.set("c", 3)
+    hashmap.set("a", 4)
+    
+    hashmap.get("a") should be (Some(4))
+    hashmap.get("b") should be (Some(2))
+  }
+
 }

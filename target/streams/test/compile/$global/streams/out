@@ -1,7 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m/home/yan/Unb/Quarto-Semestre/TP1/scala/tp1-Listas/src/test/scala/br/unb/cic/ed/TestHashMap.scala:12:26: type HashMap is not a member of package br.unb.cic.ed[0m
-[0m[[0m[31merror[0m] [0m[0m  var map: br.unb.cic.ed.HashMap[Int] = _[0m
-[0m[[0m[31merror[0m] [0m[0m                         ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/yan/Unb/Quarto-Semestre/TP1/scala/tp1-Listas/src/test/scala/br/unb/cic/ed/TestHashMap.scala:15:29: type BucketHashMap is not a member of package br.unb.cic.ed[0m
-[0m[[0m[31merror[0m] [0m[0m    map = new br.unb.cic.ed.BucketHashMap[Int](10)[0m
-[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yan/Unb/Quarto-Semestre/TP1/scala/tp1-Listas/src/test/scala/br/unb/cic/ed/TestHashMap.scala:55:41: value Some is not a member of TestHashMap.this.ResultOfBeWordForAny[Option[Int]][0m
+[0m[[0m[31merror[0m] [0m[0m      hashmap.get(i.toString) should be Some(i)[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yan/Unb/Quarto-Semestre/TP1/scala/tp1-Listas/src/test/scala/br/unb/cic/ed/TestHashMap.scala:56:44: value Some is not a member of TestHashMap.this.ResultOfBeWordForAny[Option[Int]][0m
+[0m[[0m[31merror[0m] [0m[0m      hashmap.delete(i.toString) should be Some(i)[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
 [0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

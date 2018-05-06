@@ -6,13 +6,12 @@ class ImpHashMap[A](maxSize: Int) extends HashMap[A] {
   private var size = 0
   private var data = new Array[ImpHashMap.Node[A]](maxSize)
 
-  // Create dummy nodes.
+  // Creates empty nodes
   for (i <- 0 until maxSize) {
     data(i) = ImpHashMap.Node("", null.asInstanceOf[A], null)
   }
 
-  /** Needs to be called on the dummy node. Returns the node *before* the
-      actual node we want to find. Never returns `null`. */
+  // finds the node to be changed
   private def find(key: String, head: ImpHashMap.Node[A]): ImpHashMap.Node[A] = {
     var n = head
     while (n.next != null && n.next.key != key)
@@ -20,6 +19,7 @@ class ImpHashMap[A](maxSize: Int) extends HashMap[A] {
     n
   }
 
+  // set the value of the empty node to another value 
   def set(key: String, value: A) = {
     val bucket = key.hashCode % maxSize
     val n = find(key, data(bucket))
@@ -34,6 +34,7 @@ class ImpHashMap[A](maxSize: Int) extends HashMap[A] {
     }
   }
 
+  // returns the value of the node or None
   def get(key: String): Option[A] = {
     val bucket = key.hashCode % maxSize
     val n = find(key, data(bucket))
@@ -43,6 +44,7 @@ class ImpHashMap[A](maxSize: Int) extends HashMap[A] {
       None
   }
 
+  // deletes a node
   def delete(key: String): Option[A] = {
     val bucket = key.hashCode % maxSize
     val n = find(key, data(bucket))
@@ -55,12 +57,9 @@ class ImpHashMap[A](maxSize: Int) extends HashMap[A] {
     else
       None
   }
-
-  def load(): Float = size * 1.0f / maxSize
 }
 
-// Companion object.
 object ImpHashMap {
-    /** Nodes for the linked lists used for hash collisions. */
+    // Nodes to treat collisions
     private case class Node[A](var key: String, var value: A, var next: Node[A])
 }
