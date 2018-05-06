@@ -13,11 +13,16 @@ class TestList extends FlatSpec with Matchers with GivenWhenThen with BeforeAndA
 
   before {
 <<<<<<< HEAD
+<<<<<<< HEAD
     list = new br.unb.cic.ed.CircularDLL[Int]()
 =======
     list = new br.unb.cic.ed.LinkedList[Int]()
     /* list = new br.unb.cic.ed.ArrayList[Int]() */
 >>>>>>> 23b072bbc5241335ab44dab3586d0fef6cdf527d
+=======
+    list = new br.unb.cic.ed.LinkedList[Int]()
+    /* list = new br.unb.cic.ed.ArrayList[Int]() */
+>>>>>>> ImmutableDataStructures
   }
 
   it should "have size == 0 before inserting any element" in {
@@ -203,7 +208,25 @@ class TestList extends FlatSpec with Matchers with GivenWhenThen with BeforeAndA
 
     list1.elementAt(0) should be (Some(5))
   }
+
+  // it should "apply traverse and iterate throw all the elements in the list" in {
+
+  //   var list1 = new br.unb.cic.ed.ArrayList[Int]()
+
+  //   list1.insert(0, 1)
+  //   list1.insert(1, 2)
+  //   list1.insert(2, 3)
+  //   list1.insert(3, 4)
+
+  //   var func = (x: int) => x + x;
+  //   var trav = new list1.traverse();
+
+  //   trav.traverse(func);
+
+  //   list1.elementAt(0) should be (Some(2))
+  //   list1.elementAt(1) should be (Some(4))
+  //   list1.elementAt(2) should be (Some(6))
+  //   list1.elementAt(3) should be (Some(8))
+  // }
   
 }
-
-

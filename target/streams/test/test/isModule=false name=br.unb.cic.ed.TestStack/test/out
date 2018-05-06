@@ -1,7 +1,0 @@
-[0m[[0m[0minfo[0m] [0m[0m[32mTestStack:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32mA Stack[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should have size == 0 before stacking any element[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should have size == 3 after stacking 3 elements[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should return Some(10) after stacking the following elements: 30,20,10; and popping once[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should should return None when we call pop() on an empty stack[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should throw InvalidArgument when we call push(1) on an full stack[0m[0m

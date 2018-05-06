@@ -1,6 +1,0 @@
-[0m[[0m[31merror[0m] [0m[0m/home/epilogue/Documents/4 Semestre/Tp1/Proj 1/Projeto1-TP1/src/main/scala/br/unb/cic/ed/LinkedList.scala:110:43: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : LinkedList.this.Node[0m
-[0m[[0m[31merror[0m] [0m[0m required: br.unb.cic.ed.Node[?][0m
-[0m[[0m[31merror[0m] [0m[0m  def iterator() = new LinkedListIterator(head)[0m
-[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m

@@ -1,0 +1,5 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mTestHashMap:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA Hash Map[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should have the correct elements inserted[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should have the correct elements removed[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to treat colisions[0m[0m
