@@ -6,7 +6,7 @@ class ArrayList[A: Manifest](private val max: Int = 10) extends List[A] {
   /********************** Estruturas Necessárias para a Array List ***************************/
 
   private var _size = 0;
-  private var elements = Array.ofDim[A](max)
+  var elements = Array.ofDim[A](max)
 
   /******************************* Definições das Funções ************************************/
 
@@ -69,19 +69,19 @@ class ArrayList[A: Manifest](private val max: Int = 10) extends List[A] {
   
   def size(): Int = _size
 
-  def iterator() = new ArrayListIterator(elements)
+  def iterator() = new ArrayListIterator(this)
 
 }
 
-class ArrayListIterator[A: Manifest](val elements: Array[A]) extends Iterator[A] {
+class ArrayListIterator[A: Manifest](val elements: ArrayList[A]) extends Iterator[A] {
 
   private var pos = 0
 
-  override def hasNext(): Boolean = pos < elements.length
+  override def hasNext(): Boolean = pos < elements.size
 
   override def next(): Unit = pos += 1
 
-  override def current(): A = elements(pos)
+  override def current(): A = elements.elements(pos)
 
 }
 
@@ -177,7 +177,7 @@ object ArrayList {
       array(end) = temp
     }
 
-    return i+1
+    return i + 1
     
   }
 }
