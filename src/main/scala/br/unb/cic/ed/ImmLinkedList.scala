@@ -16,6 +16,7 @@ sealed trait ImmLinkedList[+A] extends LinearSeq[A] {
   def ::[B >: A](data: B): ImmLinkedList[B] = new Cons(data, this)
   // The return is a type B, that must be a Supertype of A
   // B can be any type that has A as a subtype
+  
   override def iterator = new Iterator[A] {
     var rover: LinearSeq[A] = ImmLinkedList.this // vai dar erro
     // there is always a next node as long as the node that iterates is not empty
@@ -30,7 +31,7 @@ sealed trait ImmLinkedList[+A] extends LinearSeq[A] {
 
 final class Cons[A](override val head: A, override val tail: ImmLinkedList[A]) extends ImmLinkedList[A] {
   override def isEmpty = false
-  
+
   def length: Int = 1 + tail.length
   // if the index searched in the sublists of the original list is 0, then the iteration found the 
   // head of the list. If not, it'll recursively go through all elements and find the correct one
