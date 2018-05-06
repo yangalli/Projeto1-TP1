@@ -1,7 +1,3 @@
-[0m[[0m[31merror[0m] [0m[0m/home/yan/Unb/Quarto-Semestre/TP1/scala/tp1-Listas/src/test/scala/br/unb/cic/ed/TestHashMap.scala:55:41: value Some is not a member of TestHashMap.this.ResultOfBeWordForAny[Option[Int]][0m
-[0m[[0m[31merror[0m] [0m[0m      hashmap.get(i.toString) should be Some(i)[0m
-[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/yan/Unb/Quarto-Semestre/TP1/scala/tp1-Listas/src/test/scala/br/unb/cic/ed/TestHashMap.scala:56:44: value Some is not a member of TestHashMap.this.ResultOfBeWordForAny[Option[Int]][0m
-[0m[[0m[31merror[0m] [0m[0m      hashmap.delete(i.toString) should be Some(i)[0m
-[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/yan/Unb/Quarto-Semestre/TP1/scala/tp1-Listas/src/test/scala/br/unb/cic/ed/TestImmList.scala:28:26: value :: is not a member of Int[0m
+[0m[[0m[31merror[0m] [0m[0m    val l2 = 6 :: 7 :: 8 :: 9[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m

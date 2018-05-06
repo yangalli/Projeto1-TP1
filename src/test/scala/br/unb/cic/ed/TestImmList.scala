@@ -3,14 +3,10 @@ package br.unb.cic.ed
 import org.scalatest.FlatSpec
 import org.scalatest.Matchers
 import org.scalatest.GivenWhenThen
-import org.scalatest.BeforeAndAfter
 
-class TestImmutableList extends FlatSpec with Matchers with GivenWhenThen with BeforeAndAfter {
+class TestImmutableList extends FlatSpec with Matchers with GivenWhenThen {
   
   behavior of "An immutable list"
-
-  var list: br.unb.cic.ed.ImmLinkedList[Int] = _
-
 
   it should "return a Nil list if MyNil is Empty" in {
     MyNil.length should be (0)
@@ -25,6 +21,13 @@ class TestImmutableList extends FlatSpec with Matchers with GivenWhenThen with B
     val l1 = 5 :: MyNil
     val l2 = 6 :: 7 :: 8 :: 9 :: l1
     l2.length should be (5)
+  }
+
+  it should "return a new list with the correct length, when adding two lists" in {
+    val l1 = 4 :: MyNil
+    val l2 = 6 :: 7 :: 8 :: 9 :: l1
+    val l3 = l1 :: l2
+    l3.length should be (6)
   }
   
 }

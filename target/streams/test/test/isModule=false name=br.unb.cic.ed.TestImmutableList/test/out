@@ -3,3 +3,5 @@
 [0m[[0m[0minfo[0m] [0m[0m[32m- should return a Nil list if MyNil is Empty[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should return a list of size 1 when 1 element is inserted[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should return a list of size 5 when 5 elements are inserted[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should return a new list when adding two lists *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  6 was not equal to 5 (TestImmList.scala:30)[0m[0m
