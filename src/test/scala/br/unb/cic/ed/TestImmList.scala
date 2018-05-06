@@ -1,4 +1,4 @@
-package br.unb.cic.ed
+package br.unb.cic.ed.immutable
 
 import org.scalatest.FlatSpec
 import org.scalatest.Matchers
