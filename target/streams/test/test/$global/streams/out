@@ -1,28 +1,14 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(br.unb.cic.ed.TestStack, org.scalatest.tools.Framework$$anon$1@17c9e86a, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(br.unb.cic.ed.TestList, org.scalatest.tools.Framework$$anon$1@17c9e86a, false, [SuiteSelector])[0m
-=======
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(br.unb.cic.ed.TestList, org.scalatest.tools.Framework$$anon$1@a72a28f, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(br.unb.cic.ed.TestQueue, org.scalatest.tools.Framework$$anon$1@a72a28f, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(br.unb.cic.ed.TestStack, org.scalatest.tools.Framework$$anon$1@a72a28f, false, [SuiteSelector])[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 616 milliseconds.[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 22[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 3, aborted 0[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 22, failed 0, canceled 0, ignored 0, pending 0[0m[0m
-=======
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(br.unb.cic.ed.TestStack, org.scalatest.tools.Framework$$anon$1@5bcba044, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(br.unb.cic.ed.immutable.TestImmutableList, org.scalatest.tools.Framework$$anon$1@5bcba044, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(br.unb.cic.ed.TestHashMap, org.scalatest.tools.Framework$$anon$1@5bcba044, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(br.unb.cic.ed.TestList, org.scalatest.tools.Framework$$anon$1@5bcba044, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(br.unb.cic.ed.TestQueue, org.scalatest.tools.Framework$$anon$1@5bcba044, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(br.unb.cic.ed.TestBinTree, org.scalatest.tools.Framework$$anon$1@5bcba044, false, [SuiteSelector])[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(br.unb.cic.ed.TestGraph, org.scalatest.tools.Framework$$anon$1@5bcba044, false, [SuiteSelector])[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 40 milliseconds.[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(br.unb.cic.ed.TestBinTree, org.scalatest.tools.Framework$$anon$1@3172cb55, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(br.unb.cic.ed.TestHashMap, org.scalatest.tools.Framework$$anon$1@3172cb55, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(br.unb.cic.ed.TestList, org.scalatest.tools.Framework$$anon$1@3172cb55, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(br.unb.cic.ed.TestGraph, org.scalatest.tools.Framework$$anon$1@3172cb55, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(br.unb.cic.ed.immutable.TestImmutableList, org.scalatest.tools.Framework$$anon$1@3172cb55, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(br.unb.cic.ed.TestStack, org.scalatest.tools.Framework$$anon$1@3172cb55, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(br.unb.cic.ed.TestQueue, org.scalatest.tools.Framework$$anon$1@3172cb55, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 686 milliseconds.[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 38[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 7, aborted 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 38, failed 0, canceled 0, ignored 0, pending 0[0m[0m
->>>>>>> ImmutableDataStructures
 [0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mPassed tests:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	br.unb.cic.ed.TestBinTree[0m
@@ -30,9 +16,5 @@
 [0m[[0m[0mdebug[0m] [0m[0m	br.unb.cic.ed.TestQueue[0m
 [0m[[0m[0mdebug[0m] [0m[0m	br.unb.cic.ed.TestStack[0m
 [0m[[0m[0mdebug[0m] [0m[0m	br.unb.cic.ed.TestList[0m
-<<<<<<< HEAD
->>>>>>> 23b072bbc5241335ab44dab3586d0fef6cdf527d
-=======
 [0m[[0m[0mdebug[0m] [0m[0m	br.unb.cic.ed.TestHashMap[0m
 [0m[[0m[0mdebug[0m] [0m[0m	br.unb.cic.ed.immutable.TestImmutableList[0m
->>>>>>> ImmutableDataStructures

@@ -1,24 +1,9 @@
 #Successful Tests
-<<<<<<< HEAD
-<<<<<<< HEAD
-#Thu Apr 05 10:42:49 BRT 2018
-br.unb.cic.ed.TestStack=1522935768945
-br.unb.cic.ed.TestList=1522935768946
-=======
-#Fri May 04 14:46:17 BRT 2018
-br.unb.cic.ed.TestBinTree=1524765218409
-br.unb.cic.ed.TestGraph=1525367962237
-br.unb.cic.ed.TestQueue=1524777434499
-br.unb.cic.ed.TestStack=1522780515364
-br.unb.cic.ed.TestList=1525455976410
->>>>>>> 23b072bbc5241335ab44dab3586d0fef6cdf527d
-=======
-#Sun May 06 18:11:06 BRT 2018
-br.unb.cic.ed.TestBinTree=1525641066198
-br.unb.cic.ed.TestHashMap=1525641066029
-br.unb.cic.ed.TestGraph=1525641066129
-br.unb.cic.ed.TestQueue=1525641066072
-br.unb.cic.ed.TestStack=1525641065997
-br.unb.cic.ed.TestList=1525641066139
-br.unb.cic.ed.immutable.TestImmutableList=1525641066005
->>>>>>> ImmutableDataStructures
+#Sun May 06 18:26:38 BRT 2018
+br.unb.cic.ed.TestBinTree=1525641998213
+br.unb.cic.ed.TestHashMap=1525641998186
+br.unb.cic.ed.TestGraph=1525641998189
+br.unb.cic.ed.TestQueue=1525641998278
+br.unb.cic.ed.TestStack=1525641998275
+br.unb.cic.ed.TestList=1525641998336
+br.unb.cic.ed.immutable.TestImmutableList=1525641998347
