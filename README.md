@@ -1,6 +1,6 @@
-# Project1-TP1
+# Project1-TP1 - Yan Galli(160149207) and Antônio Carlos Souza()
 
 ## This is a library for Data Structures in Scala.
 
-### Inside the source file, in the main file, there are the implementations of the Data Structures.
+### Inside the source file, in the main file, there are the implementations of Mutable and Immutable Data Structures.
 ### Also inside the source file, but in the test file, there are the tests created to validate those Data Structures.
