@@ -18,7 +18,7 @@
 - Linked Queue
 - Array Stack
 - Linked Stack
-*Some of then were created with the Iterator design pattern*
+  - *Some of then were created with the Iterator design pattern*
 
 #### Immutable Data Structures
 - Linked List
