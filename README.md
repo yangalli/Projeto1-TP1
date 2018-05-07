@@ -1,4 +1,4 @@
-# Project1-TP1 - Yan Galli(160149207) and Antônio Carlos Souza()
+# Project1-TP1 - Yan Galli(160149207) and Antônio Carlos Souza(160112745)
 
 ## This is a library for Data Structures in Scala.
 
